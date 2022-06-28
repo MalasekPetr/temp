@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "onprem19",
+    "version": "1.11.0",
+    "libraryName": "nbs-mail-box-assets",
+    "libraryId": "24ca6ad6-267c-481f-989a-48b8ef8e11b1",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

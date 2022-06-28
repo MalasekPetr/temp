@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "868f8cc8-dc74-4c8d-8b93-2b71347177fd",
+  "alias": "MailboxesdashboardWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "NBS Mailbox" },
+    "title": { "default": "MailBoxes dashboard" },
+    "description": { "default": "mailboxesdashboard description" },
+    "officeFabricIconFontName": "CreateMailRule",
+    "properties": {
+      "title": "MailBoxes Dashboard",
+      "description": "",
+      "backendapi": "https://backend.cloudedu.local",
+      "refreshinterval": 30000
+    }
+  }]
+}

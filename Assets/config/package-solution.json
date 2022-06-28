@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "NBS-MailBox-Assets",
+    "id": "6669d85a-f4c1-4dea-9c14-227aa4b6fb85",
+    "version": "1.0.0.004",
+    "title": "NBS MailBox Assets",
+    "iconPath": "images/appicon.png",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "MailBox Content type",
+        "description": "Deploys content type.",
+        "id": "177d7dfc-691c-4efd-9ea2-163650b3f363",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements-mailboxlist-v1.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/NBSMailBox-Assets.sppkg"
+  }
+}

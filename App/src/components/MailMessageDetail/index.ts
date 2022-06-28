@@ -1,0 +1,1 @@
+export {IMailMessageDetailProps} from './IMailMessageDetailProps'

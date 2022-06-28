@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "30911e12-8128-417a-bb13-2e24d92bc434",
+  "alias": "HiddenWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "hiddenFromToolbox": true,
+  "disabledOnClassicSharepoint": true,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Hidden" },
+    "description": { "default": "Hidden description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Hidden"
+    }
+  }]
+}

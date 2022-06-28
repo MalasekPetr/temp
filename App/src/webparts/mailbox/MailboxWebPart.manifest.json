@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "de5756a2-525f-4ef3-bd78-7ea1ad078030",
+  "alias": "MailboxWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "NBS MailBox" },
+    "title": { "default": "Basic MailBox" },
+    "description": { "default": "mailbox description" },
+    "officeFabricIconFontName": "Mail",
+    "properties": {
+      "backendapi": "https://backend.cloudedu.local"
+    }
+  }]
+}

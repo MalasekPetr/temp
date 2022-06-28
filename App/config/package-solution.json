@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "NBS-MailBox",
+    "id": "049a2961-de37-4fd4-b952-a6afab78d04a",
+    "version": "1.0.1.022",
+    "title": "NBS MailBox Solution",
+    "iconPath": "images/appicon.png",
+    "includeClientSideAssets": true
+  },
+    "paths": {
+    "zippedPackage": "solution/NBSMailBox.sppkg"
+  }
+}

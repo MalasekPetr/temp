@@ -1,0 +1,12 @@
+.mboxapp-tile {
+    height: 150px;
+    width: 150px;
+    box-shadow: 7px 7px 15px 2px;
+    background-color: gainsboro;
+    border-style: outset;
+    border-width: 3px;
+    padding: 5px;
+    margin: 15px;
+    float: left;
+    overflow-wrap: break-word;
+}

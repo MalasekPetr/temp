@@ -1,0 +1,34 @@
+{
+  "@pnp/generator-spfx": {
+    "framework": "react",
+    "pnpFramework": "reactjs.plus",
+    "pnp-libraries": [
+      "jquery@3",
+      "msgraph",
+      "@pnp/pnpjs",
+      "@pnp/spfx-property-controls",
+      "spfx-uifabric-themes",
+      "lodash",
+      "@pnp/spfx-controls-react",
+      "ouifr@7",
+      "rush@3.7"
+    ],
+    "pnp-ci": "azure-preview",
+    "pnp-vetting": [],
+    "spfxenv": "onprem19",
+    "pnp-testing": [
+      "jest"
+    ]
+  },
+  "@microsoft/generator-sharepoint": {
+    "environment": "onprem19",
+    "framework": "react",
+    "isCreatingSolution": true,
+    "version": "1.11.0",
+    "name": "NBS-MailBox",
+    "id": "049a2961-de37-4fd4-b952-a6afab78d04a",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

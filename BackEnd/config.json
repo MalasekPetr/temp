@@ -1,0 +1,18 @@
+{
+  "MailBoxApps": [
+    {
+      "Name": "DEMO",
+      "Address": "demo@sp.cloudedu.cz",
+      "AppAddress": "/_layouts/15/workbench.aspx",
+      "SpWebBaseUrl": "https://demo.sp.cloudedu.local",
+      "SpDocLibId": "921811e5-71f0-44d1-9e7f-798ee4745a24",
+      "SpListId": "3F4B314B-3A28-482D-898D-093A19682CF4",
+      "Users": [
+        {
+          "Upn": "administrator@cloudedu.local",
+          "Role": "Member"
+        }
+      ]
+    }
+  ]
+}
